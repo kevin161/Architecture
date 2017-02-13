@@ -25,7 +25,7 @@ public class BaseDaoFactory {
         this.sqLiteDatabase = SQLiteDatabase.openOrCreateDatabase(sqliteDatabasePath,null);
     }
 
-    public BaseDaoFactory getInstance(){
+    public static BaseDaoFactory getInstance(){
         return instance;
     }
 
